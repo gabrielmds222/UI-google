@@ -14,3 +14,11 @@
 body {
     background: #fff;
 }
+
+
+/*  Header  */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
