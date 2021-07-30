@@ -1,0 +1,16 @@
+:root {
+    --footer-background: #0000008A;
+    --footer-content: #70757A;
+    --main-content: #3C4043;
+    -main-btn: #F8F9FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
