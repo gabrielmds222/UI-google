@@ -3,6 +3,7 @@
     --footer-content: #70757A;
     --main-content: #3C4043;
     -main-btn: #F8F9FA;
+    --nav-btn: #1A73E8; 
 }
 
 * {
@@ -18,7 +19,31 @@ body {
 
 /*  Header  */
 
-header {
+.nav-content {
     display: flex;
     justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.nav-links {
+    padding: 4px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* .nav-img {
+
+} */
+
+.nav-btn {
+    background: var(--nav-btn);
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 8px;
+    padding: 9px 23px;
 }
