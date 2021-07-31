@@ -30,7 +30,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 14px;
     padding-right: 10px;
-    cursor: pointer;
 }
 
 .nav-content .nav-links {
@@ -39,16 +38,24 @@ body {
     padding-right: 12px;
     color: #000;
     text-decoration: none;
+    cursor: pointer;
 }
 
-/* .nav-content .nav-links:hover {
-    border-bottom: 1px solid #000;
-} */
+.nav-content .nav-links:hover {
+    text-decoration: underline #000;
+}
 
 .nav-content .nav-img {
     width: 24px;
     height: 24px;
     margin: 12px;
+    cursor: pointer;
+}
+
+.nav-content .nav-img:hover {
+    background: lightgray;
+    background-size: 100px;
+    border-radius: 50%;
 }
 
 .nav-content .menu-btn .nav-btn {
@@ -60,4 +67,36 @@ body {
     border-radius: 4px;
     margin: 0 8px;
     padding: 9px 23px;
+    cursor: pointer;
+}
+
+.nav-content .menu-btn .nav-btn:hover {
+    background: radial-gradient(circle, #4387fd, #4683ea);
+}
+
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo {
+    object-fit: contain;
+    /* width: 40%; */
+    height: 92px;
+    margin-top: 20px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 300px;
+
 }
