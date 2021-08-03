@@ -115,6 +115,10 @@ body {
     outline: none;
 }
 
+.search-input:hover {
+    box-shadow: 0 0 5px lightgray;
+}
+
 .search-input input {
     flex: 1;
     padding: 10px 20px;
@@ -147,7 +151,13 @@ img {
     font-size: 14px;
     outline: none;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+}
+
+.search-btns .main-btn:hover {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px lightgray;
 }
 
 
