@@ -96,13 +96,9 @@ body {
 
 .logo {
     object-fit: contain;
-    /* width: 40%; */
+    width: 40%;
     height: 92px;
     margin-top: 20px;
-}
-
-.search {
-    width: 100%;
 }
 
 .search-input {
@@ -111,9 +107,8 @@ body {
     border: 1px solid lightgray;
     border-radius: 25px;
     height: 45px;
-    /* max-width: 600px; */
-    min-width: 200px;
     max-width: 600px;
+    width: 75vw;
     padding: 10px 20px;
     margin: 0 auto;
     margin-top: 30px;
@@ -126,6 +121,7 @@ body {
 
 .search-input input {
     flex: 1;
+    font-size: 16px;
     padding: 10px 20px;
     border: none;
     outline: none;
