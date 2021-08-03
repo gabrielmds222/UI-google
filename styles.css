@@ -82,7 +82,7 @@ body {
     flex-direction: column;
     flex: 1;
     align-items: center;
-    margin-top: 25px;
+    padding: 5px 8px 0;
 }
 
 .logo {
@@ -96,10 +96,23 @@ body {
     display: flex;
     align-items: center;
     border: 1px solid lightgray;
-    height: 30px;
-    width: 300px;
+    border-radius: 25px;
+    height: 40px;
+    max-width: 600px;
+    width: 75vw;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    outline: none;
+}
+
+.search-input input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
 }
 
 .search-btns {
-    
+
 }
